@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: f1;
+}
+html,
+body {
+  overflow-x: hidden !important;
+}
+@font-face {
+  font-family: f1;
+  src: url(../font/BalooBhai-Regular.ttf);
+}
+.trainer_det {
+  color: #529995;
+  font-size: 30px;
+}
+.name b {
+  color: #529995;
+  font-size: 30px;
+}
+.subcribe_field {
+  background-color: #fff;
+  border-radius: 39px;
+  border: none;
+  padding: 15px;
+  width: 70%;
+}
+.sub_btn {
+  border: none;
+  background-color: #ffff;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: -45px;
+  color: #529995;
+}
+.subcribe_field:focus {
+  outline: none;
+}
+.sub_head {
+  font-size: 40px;
+  font-family: "f1";
+}
+.sub_des {
+  font-size: 25px;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.choose_cls {
+  background-color: #529995;
+  position: relative;
+  color: #fff;
+}
+.choose_class_inner {
+  padding: 80px;
+  text-align: center;
+}
+.choose_class_desc {
+  font-size: 20px;
+}
+.choose_class_inner h3 {
+  font-size: 40px;
+  font-family: "f1";
+}
+.newwbie {
+  background-image: url(../assets/dadad.png);
+  background-size: cover;
+  width: 100%;
+}
+.choose_class_inner h4 {
+  font-family: f1;
+}
+.our_stats {
+  background: url(../assets/Background.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_stats_des {
+  width: 25rem;
+  position: absolute;
+}
+.our_stats_circular_div {
+  border: 1px solid #529995;
+  padding: 30px;
+  color: #529995;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our_stats_inner {
+  padding: 80px;
+  text-align: center;
+}
+.our_stats h3 {
+  color: #529995;
+  font-family: f1;
+  font-size: 35px;
+}
+.our_stats_pa {
+  font-size: 22px;
+}
+.our_stats_inner p {
+  color: #529995;
+}
+.stat_no {
+  font-size: 35px;
+  font-family: f1;
+  font-weight: f1;
+}
+.our_stats_circular_div p {
+  font-size: 20px;
+}
+.instrutor_div {
+  background-color: #529995;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.instr_inner {
+  padding: 40px;
+}
+.instr_inner h2 {
+  font-family: f1;
+  font-size: 45px;
+  line-height: 2.9rem;
+}
+.read_more {
+  background: #fff;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 5px;
+  color: #529995;
+  font-family: "f1";
+}
+.read_more_btn {
+  background: #529995;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "f1";
+}
+.instr_inner p {
+  font-size: 22px;
+}
+.instr_img {
+  height: 100vh;
+  background-image: url(../assets/4thsec.png);
+  background-size: cover;
+  background-position: center;
+}
+.exp_div {
+  /* background-color: #529995; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.exp_inner {
+  padding: 30px;
+}
+.exp_inner p {
+  color: #529995;
+  font-size: 22px;
+}
+.exp_inner h2 {
+  font-family: f1;
+  font-size: 38px;
+  color: #529995;
+}
+.pricing {
+  background-color: #529995;
+  position: relative;
+  color: #fff;
+}
+.pricing_inner {
+  padding: 80px;
+  text-align: center;
+}
+.pricing_inner .head {
+  font-family: f1;
+  font-size: 38px;
+  color: #fff;
+}
+.prcing_card {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.prcing_card h3 {
+  font-family: f1;
+  font-size: 26px;
+}
+.prcing_card_btn {
+  background-color: #529995;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  font-family: f1;
+  padding: 10px;
+  border: none;
+}
+.cost {
+  font-family: f1;
+}
+.footer {
+  color: #529995;
+}
+.som {
+  padding-left: 20px;
+  line-height: 2.9rem;
+}
+.first_page h1 {
+  font-family: f1;
+  color: #529995;
+  font-size: 45px;
+}
+.first_page span {
+  font-size: 18px;
+  color: #529995;
+}
+.join_btn {
+  background: #529995;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 23px;
+}
+.first_dv {
+  background-color: #f2f9f4;
+  padding: 25px;
+}
+.navbar-nav a {
+  color: #000;
+  font-family: f1;
+}
+@media only screen and (max-width: 767px) {
+  .pricing_inner {
+    padding: 30px;
+  }
+  .exp_div {
+    height: 50vh;
+  }
+}
